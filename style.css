@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 26px !important;
+    line-height: 47px;
+    color: #000000;
+}
+
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: #17b978;
+    display: inline-block;
+    position: relative;
+    right: 6px;
+}
+
+@media screen and (max-width:992px) {
+    .collapse a {
+        display: flex;
+        flex-direction: row;
+    }
+}
