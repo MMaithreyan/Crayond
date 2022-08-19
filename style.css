@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
-.container{
-    /* background: transparent !important; */
+
+.container-fluid {
     position: sticky;
     top: 0;
 }
@@ -26,10 +29,12 @@
     position: relative;
     right: 6px;
 }
-.collapse ul{
-    display: flex!important;
+
+.collapse ul {
+    display: flex !important;
 }
-.collapse ul li{
+
+.collapse ul li {
     list-style-type: none;
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
@@ -37,11 +42,77 @@
     padding-right: 40px;
 }
 
-.collapse ul li a{
+.collapse ul li a {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 600;
 }
+
+.banner {
+    display: flex;
+}
+
+.banner-img {
+    float: right;
+    height: 635px;
+    position: absolute;
+    right: 0px;
+}
+
+.banner-img img {
+    width: 90%;
+}
+
+.banner-text {
+    width: 24%;
+    margin: 1% 15% 1% 15%;
+    position: absolute;
+}
+
+.week {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: #17b978;
+    letter-spacing: 2px;
+}
+
+.banner-text h1 {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1.3;
+    line-height: 1.5;
+    color: #263b5e;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.banner-text button {
+    padding: 10px;
+    background-color: #17b978;
+    border-radius: 40px;
+    border-color: #17b978;
+}
+
+.banner-text button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff !important;
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+}
+
 @media screen and (max-width:992px) {
     .collapse a {
         display: flex;
