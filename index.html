@@ -21,8 +21,9 @@
 </head>
 
 <body>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <div class="container">
+         <nav class="navbar navbar-expand-lg navbar-light" id="navbar-example2">
       <a class="navbar-brand" href="#">Author <span class="dot"></span> </a>
 
 
@@ -31,19 +32,32 @@
         <h5>Menu</h5>
       </button>
 
-      <div class="decr collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
-        <a class="p-4 text-decoration-none" href="#">Home</a>
-        <a class="p-4 text-decoration-none" href="#">About</a>
-        <a class="p-4 text-decoration-none" href="#">Chapter</a>
-        <a class="p-4 text-decoration-none" href="#">Review</a>
-        <a class="p-4 text-decoration-none" href="#">MyBooks</a>
-        <a class="p-4 text-decoration-none" href="#">Author</a>
-        <a class="p-4 text-decoration-none" href="#">Contact</a>
-
+      <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Reviews</a></li>
+          <li><a href="#">MyBooks</a></li>
+          <li><a href="#">Author</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </div>
     </nav>
-  </div>
+  </div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+  <h4 id="fat">@fat</h4>
+  <p>...</p>
+  <h4 id="mdo">@mdo</h4>
+  <p>...</p>
+  <h4 id="one">one</h4>
+  <p>...</p>
+  <h4 id="two">two</h4>
+  <p>...</p>
+  <h4 id="three">three</h4>
+  <p>...</p>
+  <div >
 
+  </div>
+</div>
 </body>
 
 </html>
