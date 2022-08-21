@@ -16,10 +16,10 @@ valueDisplays.forEach((valueDisplay)=>{
 });
 
 
-let slider = document.querySelectorAll(".test");
+//let slider = document.querySelectorAll(".test");
 
-console.log(slider);
-let i=0;
-setInterval(()=>{
-if(i>)
-},1000);
+//console.log(slider);
+//let i=0;
+//setInterval(()=>{
+//if(i>)
+//},1000);
