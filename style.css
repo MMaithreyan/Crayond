@@ -523,6 +523,7 @@
 }
 
 .map {
+    margin-top: 5%;
     display: flex;
     background-color: #f5f4fb !important;
 }
@@ -684,6 +685,19 @@
     }
     .full-detial {
         padding: 0%;
+    }
+    .map {
+        display: flex;
+       flex-direction: column;
+    }
+    
+    .map-container {
+        width: 100%;
+    
+    }
+    
+    .form-container {
+        width: 100%;
     }
 
 }
