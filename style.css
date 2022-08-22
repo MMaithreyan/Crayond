@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 
-.container-fluid {
+.top-navbar {
     position: sticky;
     top: 0;
     z-index: 1;
@@ -36,6 +36,16 @@
 
 .collapse ul {
     display: flex !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 5px;
+    letter-spacing: .1em;
+
 }
 
 .collapse ul li {
@@ -134,6 +144,7 @@
 }
 
 .book img {
+    object-fit: cover;
     width: 95%;
     height: 100%;
 }
@@ -277,12 +288,14 @@
     top: 300px;
 
 }
-.home-testimonial{
+
+.home-testimonial {
     background-image: url(./images/frnds.webp);
     width: 100%;
     height: 100%;
-background-position: center;
+    background-position: center;
 }
+
 .test_width {
     background-color: #17b978;
     height: 380px;
@@ -389,6 +402,221 @@ background-position: center;
     color: #fff;
 }
 
+.detials {
+    display: flex;
+    background-color: #f5f4fb;
+}
+
+.full-detial {
+    padding: 50px;
+}
+
+.man img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mans-detials {
+    display: block;
+}
+
+.mans-detials ul {
+    list-style: none;
+}
+
+.mans-name span {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #17b978;
+}
+
+.mans-name h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #263b5e;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mans-name p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #6a7695;
+}
+
+.man-history {
+    display: flex;
+}
+
+.mans-detials p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 700;
+    color: #000000;
+
+}
+
+.answers p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #6c83a2;
+    margin-left: 50px;
+}
+
+.port-button {
+    font-weight: 600;
+    color: #fff;
+    background-color: #17b978;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.contact {
+    text-align: center;
+    margin: 5%;
+}
+
+.contact h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #263b5e;
+    font-family: "Raleway", sans-serif;
+}
+
+.contact p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #6a7695;
+}
+
+.contact-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.map {
+    display: flex;
+    background-color: #f5f4fb !important;
+}
+
+.map-container {
+    width: 50%;
+
+}
+
+.form-container {
+    width: 50%;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form input,
+.text-area,
+.send-btn {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #dbdbdb;
+}
+
+.form-container form button {
+    background-color: #17b978;
+    width: 50%;
+    color: #fff;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.bottom-container {
+    background-color: #000000;
+    padding: 5%;
+}
+
+.footer {
+    display: flex;
+}
+
+.foot-box1,
+.foot-box2,
+.foot-box3,
+.foot-box4 {
+    width: 25%;
+    color: #fff;
+    padding: 2%;
+}
+
+.foot-box1 h2,
+.foot-box2 h2,
+.foot-box3 h2,
+.foot-box4 h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+}
+
+.foot-box1 p,
+.foot-box2 p,
+.foot-box3 p,
+.foot-box4 p {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+
+}
+
+.foot-box2 a {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.foot-box1 i {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.foot-box4 i {
+    padding: 10px;
+    font-size: 20px;
+}
 
 @media screen and (max-width:992px) {
     .collapse a {
@@ -427,12 +655,32 @@ background-position: center;
     .services {
         flex-wrap: wrap;
     }
+
+    .collapse ul {
+        display: block !important;
+    }
 }
 
 @media screen and (max-width:768px) {
-  
+
     .long-book {
         display: block !important;
+    }
+
+    .man img {
+        display: none;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .foot-box1,
+    .foot-box2,
+    .foot-box3,
+    .foot-box4 {
+        width: 100%;
+
     }
 }
 
